@@ -1,0 +1,128 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2&display=swap");
+* {
+  margin: 0%;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  scroll-behavior: smooth;
+  font-size: 18px;
+}
+
+#navbarSupportedContent ul > li > a {
+  -webkit-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+  padding: 0 20px;
+}
+
+#navbarSupportedContent ul > li > a:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  color: #0070f3;
+}
+
+#navbarSupportedContent ul {
+  margin: auto;
+}
+
+.mint {
+  width: 100%;
+  margin: 60px 30px;
+  padding: 10px;
+  background-color: #eee;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.mint-1 {
+  margin: 20px 30px;
+}
+
+.card-title {
+  color: #0070f3;
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  letter-spacing: 1.3px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.card {
+  -webkit-box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+          box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  margin: 0 15px;
+}
+
+.bit {
+  background: -webkit-gradient(linear, left top, right top, from(#1de21d), to(#11f149));
+  background: linear-gradient(to right, #1de21d, #11f149);
+}
+
+.bit-1 {
+  background: -webkit-gradient(linear, left top, right top, from(magenta), to(#a102a1));
+  background: linear-gradient(to right, magenta, #a102a1);
+}
+
+.bit-2 {
+  padding: 10px;
+  background: -webkit-gradient(linear, left top, right top, from(royalblue), to(#0070f3));
+  background: linear-gradient(to right, royalblue, #0070f3);
+  font-family: sans-serif;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+  color: #1a1929;
+}
+
+.lead {
+  font-weight: 400;
+}
+
+.wing {
+  background: -webkit-gradient(linear, left top, right top, color-stop(40%, white), to(#7d9eff));
+  background: linear-gradient(to right, white 40%, #7d9eff);
+  border: none;
+}
+
+.navbar {
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+}
+
+.mint-2 {
+  background: -webkit-gradient(linear, left top, right top, from(#c51df8), to(#0004f3));
+  background: linear-gradient(to right, #c51df8, #0004f3);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  font-family: "Baloo Bhaijaan 2", cursive;
+  padding: 10px;
+}
+
+.mint-4 {
+  -webkit-box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+          box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+.mint-5 {
+  padding: 10px;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+  background-color: #0004f3a1;
+}
+
+.mint-5:hover #navbarSupportedContent ul > li > a:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  color: #ffffff;
+}
+
+.mint-5:hover #net-2 ul > li > a:hover {
+  color: black;
+}
+/*# sourceMappingURL=style.css.map */
