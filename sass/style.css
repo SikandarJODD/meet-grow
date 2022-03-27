@@ -87,6 +87,12 @@
   border: none;
 }
 
+.wing-1 {
+  background: -webkit-gradient(linear, left top, right top, color-stop(40%, white), to(#7d9eff));
+  background: linear-gradient(to right, white 40%, #7d9eff);
+  border: none;
+}
+
 .navbar {
   -webkit-transition: all 0.3s linear;
   transition: all 0.3s linear;
@@ -124,5 +130,32 @@
 
 .mint-5:hover #net-2 ul > li > a:hover {
   color: black;
+}
+
+.hov-1 {
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+}
+
+.hov-1:hover {
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+  background: -webkit-gradient(linear, left top, left bottom, from(white), to(#93c4fc));
+  background: linear-gradient(to bottom, white, #93c4fc);
+  border: none;
+  outline: none;
+}
+
+.hov-1:hover .card-text {
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+  font-weight: 400;
+}
+
+.hov-1:hover .btn {
+  background-color: #0070f3;
+  color: #eee;
 }
 /*# sourceMappingURL=style.css.map */

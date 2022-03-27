@@ -67,6 +67,10 @@ $blu: #0070f3;
   background: linear-gradient(to right, white 40%, rgb(125, 158, 255));
   border: none;
 }
+.wing-1 {
+  background: linear-gradient(to right, white 40%, rgb(125, 158, 255));
+  border: none;
+}
 .navbar {
   transition: $mint;
 }
@@ -95,4 +99,23 @@ $blu: #0070f3;
       color: black;
     }
   }
+}
+.hov-1 {
+  transition: $mint;
+  &:hover {
+    .card-text{
+      transition: $mint;
+      font-weight: 400;
+    }
+    transition: $mint;
+    transform: scale(1.05);
+    background: linear-gradient(to bottom, white, #93c4fc);
+    border: none;
+    outline: none;
+    .btn {
+      background-color: #0070f3;
+      color: #eee;
+    }
+  }
+  // background: #000;
 }
